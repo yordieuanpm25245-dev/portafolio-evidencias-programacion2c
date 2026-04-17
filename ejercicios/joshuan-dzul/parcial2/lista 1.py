@@ -7,7 +7,7 @@ Tienes una lista de celebridades que entrarán por la alfombra roja. El orden es
 3. Invitado VIP: "Steven Spielberg" acaba de llegar y debe ir al principio de la lista.
 4. Cancelación: "Emma Stone" avisa que no asistir.
 5. seguridad El último de la lista se porta mal y debe ser retirado.
-Imprime la lista final y cuántos quedan en total.
+6. Imprime la lista final y cuántos quedan en total.
 """
 
 #punto no1
