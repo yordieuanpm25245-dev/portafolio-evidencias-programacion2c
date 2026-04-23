@@ -1,13 +1,13 @@
 def formato_nombre(name, lastName):
     """
-    Devuelve el nombre de usuario en el formato Apellido, Nombre.
+    Devuelve el nombre de usuario en el formato ""Apellido, Nombre".
 
     Argumentos:
       name(str): Primer nombre del usuario.
       lastName(str): Apellido paterno del usuario.
 
     Retorno:
-    (str): El nombre completo en formato Apellido, Nombre.
+    (str): El nombre completo en formato "Apellido, Nombre".
     """
     return f"{lastName}, {name}"
 
