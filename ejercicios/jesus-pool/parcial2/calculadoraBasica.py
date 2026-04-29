@@ -50,5 +50,4 @@ elif opcion == 5:
    # finalizacion del programa
    print("Programa finalizado...")
 else:
-   # mensaje de error por opcion no valida
-    "mensaje de opcion no valida, intenta nuevamente"
+    print("mensaje de opcion no valida, intenta nuevamente")
