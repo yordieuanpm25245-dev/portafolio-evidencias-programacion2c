@@ -1,9 +1,9 @@
 import unittest
-from parcial2.calculadoraBasica.py import suma, resta, multi, div
+from calculadoraBasica import suma, resta, multi, div
 
 class testOperaciones(unittest.TestCase):
 
-    def test_suma_positivos (self):
+    def test_suma_positivos(self):
         self.assertEqual(suma(300,3),303)
 
     def test_suma_negativos(self):
@@ -18,5 +18,5 @@ class testOperaciones(unittest.TestCase):
     def test_suma_valoresNegativos(self):
         self(self.assertEqual(-5,-5), 0)
 
- if __name__ == "__main__":
+if __name__ == "__main__":
     unittest.main   

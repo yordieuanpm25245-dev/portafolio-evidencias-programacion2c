@@ -3,7 +3,7 @@ def suma(a,b):
 def resta(a,b):
     return a - b
 
-    import unittest
+import unittest
 
 class TestSuma(unittest.TestCase):
     def test_suma_positiva(self):

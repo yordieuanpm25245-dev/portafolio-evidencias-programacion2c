@@ -7,6 +7,6 @@ def calcular(*arg):
         (float): El valor de la media o promedio de los datos numericos.
 """
     return (sum(*arg)/len(*arg))
-assert(calcular_media([3,4,5]) ==4.0)
-assert(calcular_media([10,20,30]) == 20.0)
-assert(calcular_media([3,4,5]) ==2.0)
+assert(calcular([3,4,5]) ==4.0)
+assert(calcular([10,20,30]) == 20.0)
+assert(calcular([3,4,5]) ==2.0)

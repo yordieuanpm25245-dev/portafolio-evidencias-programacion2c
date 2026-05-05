@@ -1,7 +1,8 @@
 import unittest
-from calculadoraBasica import suma, resta, multi, division
+from mi_calculadora.src import suma, resta, multi, division
 
 class testOperaciones(unittest.TestCase):
+
     def test_suma_(self):
         self.assertEqual(suma(50,5),55)
 
