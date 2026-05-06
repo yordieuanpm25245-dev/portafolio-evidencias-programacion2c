@@ -10,6 +10,7 @@ def multi(a,b):
 
 def division(a,b):
     return a / b
+
 #menu de opciones
 opcion = 0
 while(opcion != 5):
