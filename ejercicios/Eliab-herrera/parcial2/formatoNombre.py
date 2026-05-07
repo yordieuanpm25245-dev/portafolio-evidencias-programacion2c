@@ -15,10 +15,10 @@ def formato_nombre(name, lastName):
 def main():
     ()
     _name = input("introduce tu primer apellido")
-    _lastName = input("introduce tu apellido paterno: ")
+    _lastName = input("introduce tu apellido materno: ")
 
     print(formato_nombre (_name, _lastName))
 
-if__name__== "__main__":
+if __name__ == "__main__":
     main()
     
