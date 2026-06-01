@@ -4,6 +4,7 @@ from cuenta import Cuenta
 def main():
    # Sistema bancario simple
 
+
     cuentas = {}
 
     while True:
@@ -42,7 +43,7 @@ def main():
             cuenta = input("Número de cuenta: ")
             if cuenta in cuentas:
                 dinero = float(input("Cantidad a depositar: "))
-                cuentas[cuenta][1] += dinero
+                cuentas(cuenta)[1] += dinero
                 print("Depósito exitoso.")
             else:
                 print("Cuenta no encontrada.")
@@ -53,8 +54,8 @@ def main():
             cuenta = input("Número de cuenta: ")
             if cuenta in cuentas:
                 dinero = float(input("Cantidad a retirar: "))
-                if dinero <= cuentas[cuenta][1]:
-                    cuentas[cuenta][1] -= dinero
+                if dinero <= cuentas(cuenta)[1]:
+                    cuentas(cuenta)[1] -= dinero
                     print("Retiro exitoso.")
                 else:
                     print("Saldo insuficiente.")
